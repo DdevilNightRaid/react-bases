@@ -26,7 +26,7 @@ export default function FollowMouse() {
                             backgroundColor: 'red',
                             borderRadius: '50%',
                             transform: `translate(${position.x}px, ${position.y}px)`,
-                            left: -18,
+                            left: -17,
                             top: -15,
                             width: 20,
                             height: 20,
