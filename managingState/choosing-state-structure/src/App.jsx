@@ -7,7 +7,8 @@ import WithDuplication from './avoid-duplication-in-state/WithDuplication'
 import WithOutDuplication from './avoid-duplication-in-state/WithOutDuplication'
 import Deeply from './avoid-deeply-nested-state/DeeplyNested/Deeply'
 import NotDeeply from './avoid-deeply-nested-state/NotDeeply/NotDeeply'
-import Index from './challenge1/Index'
+import Index from './challenge1/Index';
+import C2Index from './challenge2/C2Index'
 function App() {
 
   return (
@@ -27,6 +28,9 @@ function App() {
       <hr />
       <h2>Solved Challenge 1: </h2>
       <Index />
+      <hr />
+      <h2>Solved Challenge 1: </h2>
+      <C2Index />
     </>
   )
 }
